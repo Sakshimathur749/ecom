@@ -1,0 +1,40 @@
+.hero{
+    display: flex;
+    padding: 25px;
+    background-color: rgb(106, 164, 252);
+  }
+.hero-left{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-left h1{
+    font-size: 50px;
+    font-weight: 600;
+    word-spacing: 20px;
+    padding:30px 10vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.left-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 30vw;
+    gap: 40px;
+}
+.left-card svg{
+    height: 40px;
+    width: 40px;
+    padding: 23px;
+}
+.left-card span{
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+}
+.hero-right img{
+    width: 20vw;
+    height: 45vh;
+}
